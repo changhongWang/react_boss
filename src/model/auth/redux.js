@@ -4,7 +4,7 @@ const LOG_OUT = 'LOG_OUT';
 
 // actionCreators
 export function logIn() {
-  return {type: LOG_OUT};
+  return {type: LOG_IN};
 }
 export function logOut() {
   return {type: LOG_OUT};
