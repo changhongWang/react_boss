@@ -7,6 +7,8 @@ import Dashboard from './page/Dashboard';
 import {applyMiddleware, compose, createStore} from "redux";
 import thunk from "redux-thunk";
 import reducers from "./model/reducers";
+import './config';
+import 'antd-mobile/dist/antd-mobile.css';
 import {
   BrowserRouter,
   Route,

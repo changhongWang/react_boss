@@ -25,6 +25,7 @@ app.get('/', function(req, res) {
 });
 app.get('/data', function(req, res) {
   User.find({}, function(err, doc) {
+    console.log(doc);
     res.json(doc)
   });
 });
